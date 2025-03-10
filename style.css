@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.div he{
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+.specialty {
+    margin: 20px 0;
+}
+
+.dish {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.dish img {
+    width: 70%;
+    height: 500px;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.dish{
+    display: flex;
+    
+    align-items: flex-start; /* Canh trái dọc */
+    padding: 20px;
+    flex-wrap: wrap; /* Cho phép hình ảnh chuyển dòng */
+    width: 100%; /* Chiều rộng của div chiếm 80% chiều rộng của phần tử cha (body) */
+    
+    
+   
+}
+.content{
+    width: 30%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+  }
+  
+
+  .search-container {
+    background-color: white;  /* Màu nền cho khung tìm kiếm */
+    border-radius: 5px;       /* Bo tròn góc cho khung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);   /* Đổ bóng cho khung */
+    overflow: hidden;         /* Đảm bảo không có méo hình */
+    
+}
+
+.search-form {
+    display: flex;            /* Sử dụng Flexbox để sắp xếp ô tìm kiếm và nút */
+}
+
+.search-input {
+    border: none;            /* Không có viền cho ô nhập liệu */
+    padding: 10px;          /* Khoảng cách bên trong ô nhập liệu */
+    flex: 1;                 /* Làm cho ô nhập liệu chiếm toàn bộ chiều rộng còn lại */
+    font-size: 16px;        /* Kích thước chữ cho ô nhập liệu */
+}
+
+.search-button {
+    background-color: red;  /* Màu nền cho nút tìm kiếm */
+    color: white;                /* Màu chữ cho nút tìm kiếm */
+    border: none;                /* Không có viền cho nút */
+    padding: 10px 20px;         /* Khoảng cách bên trong nút */
+    cursor: pointer;             /* Hiển thị con trỏ khi di chuột qua nút */
+    font-size: 16px;            /* Kích thước chữ cho nút */
+}
+
+.search-button:hover {
+    background-color: white;  /* Màu nền khi di chuột qua nút */
+}
+.container {
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.nav-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    color: blue;
+    background-color: white; /* Màu nền cho nút */
+    border: none; /* Không có viền cho nút */
+    border-radius: 5px; /* Bo tròn góc cho nút */
+    cursor: pointer; /* Con trỏ hình tay khi hover */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+    margin: 5px; /* Khoảng cách giữa các nút */
+}
+
+.nav-button:hover {
+    background-color: #0056b3; /* Thay đổi màu nền khi hover */
+}
+p{
+  text-align: left;
+  text-size-adjust: 100px;
+}
